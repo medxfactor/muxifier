@@ -8,19 +8,19 @@
 
 - Add prerelease publish to GPR
 
-  It is configured to be run on completion of prerelease workflow
+  It is configured to be run on completion of prerelease workflow.
 
 - Add prerelease publish to NPM
 
-  It is configured to be run on completion of prerelease workflow
+  It is configured to be run on completion of prerelease workflow.
 
 - Add release publish to GPR
 
-  It is configured to be run on completion of release workflow
+  It is configured to be run on completion of release workflow.
 
 - Add release publish to NPM
 
-  It is configured to be run on completion of release workflow
+  It is configured to be run on completion of release workflow.
 
 - Add release workflow configuration
 
