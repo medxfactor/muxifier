@@ -1,3 +1,1 @@
-import { log } from './lib';
-
-log('hello');
+export { log } from './lib';
