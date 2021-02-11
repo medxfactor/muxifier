@@ -1,6 +1,6 @@
 {
   "name": "muxifier",
-  "version": "0.1.0",
+  "version": "0.1.1-2",
   "description": "Attach/detach your server application to muxway",
   "module": "./dist/es/main.js",
   "main": "./dist/cjs/main.js",
@@ -15,6 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/medxfactor/muxifier.git"
   },
+  "types": "./dist/types/main.d.ts",
   "files": [
     "dist"
   ],
