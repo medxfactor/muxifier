@@ -25,3 +25,7 @@
 - Add release workflow configuration
 
   It is configured to be triggered on push tags in standard semantic versioning format which is `'v[0-9]+.[0-9]+.[0-9]+'`.
+
+- Add post-version script
+
+  It will be executed after every `npm version <version>` execution and updates CHANGELOG version to new version.

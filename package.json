@@ -9,7 +9,8 @@
     "build": "npm-run-all --sequential clean-dist bundle generate-type-declarations",
     "bundle": "rollup --config rollup.config.js",
     "generate-type-declarations": "tsc --project tsconfig.json --declaration --declarationDir './dist/types/' --declarationMap --emitDeclarationOnly",
-    "clean-dist": "rimraf ./dist"
+    "clean-dist": "rimraf ./dist",
+    "postversion": "./post-version"
   },
   "repository": {
     "type": "git",
