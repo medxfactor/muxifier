@@ -13,3 +13,8 @@
 - Add prerelease publish to NPM
 
   It is configured to be run on completion of prerelease workflow
+
+- Add release publish to GPR
+
+  It is configured to be run on completion of release workflow
+
