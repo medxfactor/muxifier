@@ -18,3 +18,6 @@
 
   It is configured to be run on completion of release workflow
 
+- Add release publish to NPM
+
+  It is configured to be run on completion of release workflow
