@@ -21,3 +21,7 @@
 - Add release publish to NPM
 
   It is configured to be run on completion of release workflow
+
+- Add release workflow configuration
+
+  It is configured to be triggered on push tags in standard semantic versioning format which is `'v[0-9]+.[0-9]+.[0-9]+'`.
