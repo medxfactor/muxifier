@@ -9,3 +9,7 @@
 - Add prerelease publish to GPR
 
   It is configured to be run on completion of prerelease workflow
+
+- Add prerelease publish to NPM
+
+  It is configured to be run on completion of prerelease workflow
