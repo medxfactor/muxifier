@@ -20,6 +20,8 @@
 
   - Add `Task` utility type. Helps executing asynchronous tasks that can either fail or succeed.
 
+- Add `attach` function implementation. It returns `Task` type result which can be `fork`ed for either result or error, if any occurs.
+
 ## 0.1.1
 
 - Remove GPR publish workflows
