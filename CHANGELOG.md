@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Update `tsconfig.json` configuration
+
+  - Remove `files` key and replace it with `include` of `./scr/` directory.
+
+    It makes editors type hinting and suggestions more convenient and unused modules will not be included in final bundle also.
+
 ## 0.1.1
 
 - Remove GPR publish workflows

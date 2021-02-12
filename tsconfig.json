@@ -1,6 +1,6 @@
 {
-  "files": [
-    "./src/main.ts"
+  "include": [
+    "./src/"
   ],
   "compilerOptions": {
     "noEmitOnError": true,
