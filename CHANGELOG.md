@@ -14,6 +14,10 @@
 
 - Add `ts-node` package. It allows more easier and faster execution of code, for debugging, etc.
 
+- Add utility helpers
+
+  - It contains `Either` type and both `Right` and `Left` types with their implementations.
+
 ## 0.1.1
 
 - Remove GPR publish workflows
