@@ -18,6 +18,8 @@
 
   - It contains `Either` type and both `Right` and `Left` types with their implementations.
 
+  - Add `Task` utility type. Helps executing asynchronous tasks that can either fail or succeed.
+
 ## 0.1.1
 
 - Remove GPR publish workflows
