@@ -1,5 +1,33 @@
 # Changelog
 
+## Unreleased
+
+- Update `tsconfig.json` configuration
+
+  - Remove `files` key and replace it with `include` of `./scr/` directory.
+
+    It makes editors type hinting and suggestions more convenient and unused modules will not be included in final bundle also.
+
+  - Remove `module` key from `compilerOptions`.
+
+    It unnecessarily enforces module type to output bundle. After removing this key, both bundlers and other tools, e.g., `ts-node`, can compile or run source modules in the way they need and configured for. For example, `ts-node` needs `CommonJS` module types, because `node` itself requires the modules to be in this format, while at the same time, `rollup` is configured to generate both `CommonJS` and `ES` modules for two output bundles. Removing this option allows both to use source code in the way need, without any enforcement of TypeScript compile.
+
+- Add `ts-node` package. It allows more easier and faster execution of code, for debugging, etc.
+
+- Add utility helpers
+
+  - It contains `Either` type and both `Right` and `Left` types with their implementations.
+
+  - Add `Task` utility type. Helps executing asynchronous tasks that can either fail or succeed.
+
+- Add `attach` function implementation. It returns `Task` type result which can be `fork`ed for either result or error, if any occurs.
+
+- Update outdated dependencies
+
+  - Bump `rollup` to `2.39.0`
+
+- Reexport `attach` function and `AttachRequestPayload` type from attach module in main
+
 ## 0.1.1
 
 - Remove GPR publish workflows
