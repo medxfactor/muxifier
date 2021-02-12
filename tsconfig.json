@@ -4,7 +4,6 @@
   ],
   "compilerOptions": {
     "noEmitOnError": true,
-    "module": "ES2020",
     "sourceMap": true,
     "strict": true,
     "noImplicitAny": true,
