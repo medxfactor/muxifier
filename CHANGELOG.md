@@ -26,6 +26,8 @@
 
   - Bump `rollup` to `2.39.0`
 
+- Reexport `attach` function and `AttachRequestPayload` type from attach module in main
+
 ## 0.1.1
 
 - Remove GPR publish workflows
