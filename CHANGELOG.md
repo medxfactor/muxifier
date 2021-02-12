@@ -4,6 +4,10 @@
 
 - Change `attach` call returned error of type `UnexpectedResponseStatusCodeError` final message to 'Response status code is not 204'
 
+- Fix bug validating returned response status code.
+
+  It seems the when the response body get resumed by `response.resume` call while the status code is `500`, `end` event handler wont get executed. Moving response status code check to `readable` event of response fixed the bug.
+
 ## 1.0.0-0
 
 - Update `tsconfig.json` configuration

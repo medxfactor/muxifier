@@ -34,9 +34,11 @@ function issueAttachRequest(requestOptions: RequestOptions, serializedBody: stri
   return new Task<void, ResponseReadError | UnexpectedResponseStatusCodeError | RequestError>((resolve, reject) => {
     http.request(requestOptions, (response) => {
       response.setEncoding('utf-8')
-        .on('error', (error) => reject(new ResponseReadError(error.message)))
-        .on('readable', () => response.resume())
-        .on('end', () => {
+        .on('error', (error) => {
+          reject(new ResponseReadError(error.message))
+        })
+        .on('readable', () => {
+          response.resume()
           if (response.statusCode === 204) {
             return resolve();
           }
