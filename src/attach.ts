@@ -32,7 +32,7 @@ class RequestError extends Error { }
 
 function issueAttachRequest(requestOptions: RequestOptions, serializedBody: string) {
   return new Task<void, ResponseReadError | UnexpectedResponseStatusCodeError | RequestError>((resolve, reject) => {
-    const request = http.request(requestOptions, (response) => {
+    http.request(requestOptions, (response) => {
       response.setEncoding('utf-8')
         .on('error', (error) => reject(new ResponseReadError(error.message)))
         .on('readable', () => response.resume())
@@ -42,11 +42,11 @@ function issueAttachRequest(requestOptions: RequestOptions, serializedBody: stri
           }
           return reject(new UnexpectedResponseStatusCodeError('Response status code is not 204'));
         });
-    });
-    request.on('error', (error) => {
+    })
+    .on('error', (error) => {
       reject(new RequestError(error.message));
-    });
-    request.end(serializedBody, 'utf-8');
+    })
+    .end(serializedBody, 'utf-8');
   });
 }
 
