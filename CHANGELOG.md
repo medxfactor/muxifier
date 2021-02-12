@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Change `attach` call returned error of type `UnexpectedResponseStatusCodeError` final message to 'Response status code is not 204'
+
 ## 1.0.0-0
 
 - Update `tsconfig.json` configuration

@@ -81,7 +81,7 @@ export function attach(payload: AttachRequestPayload) {
               return reject('Error while reading response. ' + error.message);
             }
             if (error instanceof UnexpectedResponseStatusCodeError) {
-              return reject('Response status code was not 204. ' + error.message);
+              return reject(error.message);
             }
           },
         );
