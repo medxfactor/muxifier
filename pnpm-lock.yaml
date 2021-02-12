@@ -1,28 +1,28 @@
 devDependencies:
-  '@rollup/plugin-commonjs': 17.1.0_rollup@2.38.5
-  '@rollup/plugin-json': 4.1.0_rollup@2.38.5
-  '@rollup/plugin-node-resolve': 11.1.1_rollup@2.38.5
-  '@rollup/plugin-replace': 2.3.4_rollup@2.38.5
-  '@rollup/plugin-typescript': 8.1.1_69661cb77160534c3cfdd94871629611
+  '@rollup/plugin-commonjs': 17.1.0_rollup@2.39.0
+  '@rollup/plugin-json': 4.1.0_rollup@2.39.0
+  '@rollup/plugin-node-resolve': 11.1.1_rollup@2.39.0
+  '@rollup/plugin-replace': 2.3.4_rollup@2.39.0
+  '@rollup/plugin-typescript': 8.1.1_1219a9f9985ee12b9322d5007b6c7049
   npm-run-all: 4.1.5
   packfiles: 0.0.2
   rimraf: 3.0.2
-  rollup: 2.38.5
+  rollup: 2.39.0
   ts-node: 9.1.1_typescript@4.1.5
   tslib: 2.1.0
   typescript: 4.1.5
 lockfileVersion: 5.2
 packages:
-  /@rollup/plugin-commonjs/17.1.0_rollup@2.38.5:
+  /@rollup/plugin-commonjs/17.1.0_rollup@2.39.0:
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.38.5
+      '@rollup/pluginutils': 3.1.0_rollup@2.39.0
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 7.1.6
       is-reference: 1.2.1
       magic-string: 0.25.7
-      resolve: 1.19.0
-      rollup: 2.38.5
+      resolve: 1.20.0
+      rollup: 2.39.0
     dev: true
     engines:
       node: '>= 8.0.0'
@@ -30,24 +30,24 @@ packages:
       rollup: ^2.30.0
     resolution:
       integrity: sha512-PoMdXCw0ZyvjpCMT5aV4nkL0QywxP29sODQsSGeDpr/oI49Qq9tRtAsb/LbYbDzFlOydVEqHmmZWFtXJEAX9ew==
-  /@rollup/plugin-json/4.1.0_rollup@2.38.5:
+  /@rollup/plugin-json/4.1.0_rollup@2.39.0:
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.38.5
-      rollup: 2.38.5
+      '@rollup/pluginutils': 3.1.0_rollup@2.39.0
+      rollup: 2.39.0
     dev: true
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0
     resolution:
       integrity: sha512-yfLbTdNS6amI/2OpmbiBoW12vngr5NW2jCJVZSBEz+H5KfUJZ2M7sDjk0U6GOOdCWFVScShte29o9NezJ53TPw==
-  /@rollup/plugin-node-resolve/11.1.1_rollup@2.38.5:
+  /@rollup/plugin-node-resolve/11.1.1_rollup@2.39.0:
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.38.5
+      '@rollup/pluginutils': 3.1.0_rollup@2.39.0
       '@types/resolve': 1.17.1
       builtin-modules: 3.2.0
       deepmerge: 4.2.2
       is-module: 1.0.0
-      resolve: 1.19.0
-      rollup: 2.38.5
+      resolve: 1.20.0
+      rollup: 2.39.0
     dev: true
     engines:
       node: '>= 10.0.0'
@@ -55,21 +55,21 @@ packages:
       rollup: ^1.20.0||^2.0.0
     resolution:
       integrity: sha512-zlBXR4eRS+2m79TsUZWhsd0slrHUYdRx4JF+aVQm+MI0wsKdlpC2vlDVjmlGvtZY1vsefOT9w3JxvmWSBei+Lg==
-  /@rollup/plugin-replace/2.3.4_rollup@2.38.5:
+  /@rollup/plugin-replace/2.3.4_rollup@2.39.0:
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.38.5
+      '@rollup/pluginutils': 3.1.0_rollup@2.39.0
       magic-string: 0.25.7
-      rollup: 2.38.5
+      rollup: 2.39.0
     dev: true
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0
     resolution:
       integrity: sha512-waBhMzyAtjCL1GwZes2jaE9MjuQ/DQF2BatH3fRivUF3z0JBFrU0U6iBNC/4WR+2rLKhaAhPWDNPYp4mI6RqdQ==
-  /@rollup/plugin-typescript/8.1.1_69661cb77160534c3cfdd94871629611:
+  /@rollup/plugin-typescript/8.1.1_1219a9f9985ee12b9322d5007b6c7049:
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.38.5
-      resolve: 1.19.0
-      rollup: 2.38.5
+      '@rollup/pluginutils': 3.1.0_rollup@2.39.0
+      resolve: 1.20.0
+      rollup: 2.39.0
       tslib: 2.1.0
       typescript: 4.1.5
     dev: true
@@ -81,12 +81,12 @@ packages:
       typescript: '>=3.4.0'
     resolution:
       integrity: sha512-DPFy0SV8/GgHFL31yPFVo0G1T3yzwdw6R9KisBfO2zCYbDHUqDChSWr1KmtpGz/TmutpoGJjIvu80p9HzCEF0A==
-  /@rollup/pluginutils/3.1.0_rollup@2.38.5:
+  /@rollup/pluginutils/3.1.0_rollup@2.39.0:
     dependencies:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.2.2
-      rollup: 2.38.5
+      rollup: 2.39.0
     dev: true
     engines:
       node: '>= 8.0.0'
@@ -102,13 +102,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-laIjwTQaD+5DukBZaygQ79K1Z0jb1bPEMRrkXSLjtCcZm+abyp5YbrqpSLzD42FwWW6gK/aS4NYpJ804nG2brg==
-  /@types/node/14.14.25:
+  /@types/node/14.14.27:
     dev: true
     resolution:
-      integrity: sha512-EPpXLOVqDvisVxtlbvzfyqSsFeQxltFbluZNRndIb8tr9KiBnYNLzrc1N3pyKUCww2RNrfHDViqDWWE1LCJQtQ==
+      integrity: sha512-Ecfmo4YDQPwuqTCl1yBxLV5ihKfRlkBmzUEDcfIRvDxOTGQEeikr317Ln7Gcv0tjA8dVgKI3rniqW2G1OyKDng==
   /@types/resolve/1.17.1:
     dependencies:
-      '@types/node': 14.14.25
+      '@types/node': 14.14.27
     dev: true
     resolution:
       integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==
@@ -451,7 +451,7 @@ packages:
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.8
-      resolve: 1.19.0
+      resolve: 1.20.0
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: true
@@ -588,13 +588,13 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-nLxoaXj+5l0WwA4rGcI3/Pbjg4k=
-  /resolve/1.19.0:
+  /resolve/1.20.0:
     dependencies:
       is-core-module: 2.2.0
       path-parse: 1.0.6
     dev: true
     resolution:
-      integrity: sha512-rArEXAgsBG4UgRGcynxWIWKFvh/XZCcS8UJdHhwy91zwAvCZIbcs+vAbflgBnNjYMs/i/i+/Ux6IZhML1yPvxg==
+      integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
   /rimraf/3.0.2:
     dependencies:
       glob: 7.1.6
@@ -602,7 +602,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
-  /rollup/2.38.5:
+  /rollup/2.39.0:
     dev: true
     engines:
       node: '>=10.0.0'
@@ -610,7 +610,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     resolution:
-      integrity: sha512-VoWt8DysFGDVRGWuHTqZzT02J0ASgjVq/hPs9QcBOGMd7B+jfTr/iqMVEyOi901rE3xq+Deq66GzIT1yt7sGwQ==
+      integrity: sha512-+WR3bttcq7zE+BntH09UxaW3bQo3vItuYeLsyk4dL2tuwbeSKJuvwiawyhEnvRdRgrII0Uzk00FpctHO/zB1kw==
   /semver/5.7.1:
     dev: true
     hasBin: true
@@ -772,7 +772,7 @@ specifiers:
   npm-run-all: ^4.1.5
   packfiles: ^0.0.2
   rimraf: ^3.0.2
-  rollup: ^2.38.5
+  rollup: ^2.39.0
   ts-node: ^9.1.1
   tslib: ^2.1.0
   typescript: ^4.1.5

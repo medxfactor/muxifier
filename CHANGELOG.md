@@ -22,6 +22,10 @@
 
 - Add `attach` function implementation. It returns `Task` type result which can be `fork`ed for either result or error, if any occurs.
 
+- Update outdated dependencies
+
+  - Bump `rollup` to `2.39.0`
+
 ## 0.1.1
 
 - Remove GPR publish workflows
